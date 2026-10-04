@@ -1,0 +1,16 @@
+{
+  "name": "jev-playtest-lab",
+  "version": "0.1.0",
+  "description": "Replayable, revision-safe game decision lab for Jev",
+  "type": "module",
+  "bin": { "jev-playtest-lab": "src/cli.js" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/*.js && node --test",
+    "demo": "node src/cli.js demo",
+    "serve": "node src/cli.js serve"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/gbesse/jev-playtest-lab.git" }
+}
